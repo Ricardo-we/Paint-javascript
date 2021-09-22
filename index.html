@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/paint.css">
+    <title>Paint online</title>
+</head>
+<body>
+    <div class="container">
+        <div class="options">
+            <button id="delete">limpiar</button>
+            <button id="pincel">pincel</button>
+            <button id="linea">linea</button>
+            <button id="cuadrado">cuadrado</button>
+            <button id="circulo">circulo</button>
+            <button id="btn_grid">grid</button>
+            <button id="fillBg">fondo</button>
+            <button id="borrador">borrador</button>
+            <input type="color" id="color" oninput="color(this.value)">
+            <input type="range" id="grosor" oninput="grosor(this.value)" value="1" min="1" max="20">
+        </div>
+        <div class="container_">
+            <canvas id="canvas" width="550" height="550" ></canvas>
+        </div>
+    </div>
+    <script src="static/js/main.js"></script>
+</body>
+</html>
+

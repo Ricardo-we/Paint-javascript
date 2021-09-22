@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@100&display=swap');
+
+*{
+    font-family: 'Glory', sans-serif;
+    color: black;
+}
+
+#canvas {
+    border: 1px solid black;
+    cursor: crosshair;
+    align-self: center;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+
+
+.options{
+    background-color: rgb(83, 79, 79);
+    width: 555px;
+    margin: auto;
+}
+
+button {
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color:rgb(52, 110, 219);
+    margin: 10px;
+}
+
+#color{
+    background-color: rgb(83, 79, 79);
+    border: none;
+    cursor: pointer;
+}
+
+#grosor{
+    cursor: grab;
+}
